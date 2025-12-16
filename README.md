@@ -24,7 +24,7 @@ El sistema sigue una **Arquitectura en Capas (Layered Architecture)** para asegu
 
 ```mermaid
 graph TD
-    Client[Frontend (React)] <--> API[API Routes]
+    Client[Frontend] <--> API[API Routes]
     API --> Controller[Controllers (HTTP Handling)]
     Controller --> Service[Services (Business Logic & Transactions)]
     Service --> Repository[Repositories (Data Access SQL)]
