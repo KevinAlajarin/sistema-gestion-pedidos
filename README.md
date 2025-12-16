@@ -25,10 +25,10 @@ El sistema sigue una **Arquitectura en Capas (Layered Architecture)** para asegu
 ```mermaid
 graph TD
     Client[Frontend] <--> API[API Routes]
-    API --> Controller[Controllers (HTTP Handling)]
-    Controller --> Service[Services (Business Logic & Transactions)]
-    Service --> Repository[Repositories (Data Access SQL)]
-    Repository <--> DB[(SQL Server 2022)]
+    API --> Controller[Controllers]
+    Controller --> Service[Service]
+    Service --> Repository[Repositories]
+    Repository <--> DB[SQL Server]
 ```
 
 Decisiones Técnicas Clave:
