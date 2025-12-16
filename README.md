@@ -78,23 +78,23 @@ Decisiones Técnicas Clave:
 
 - Validación Robusta: Uso de express-validator en backend y validaciones reactivas en frontend.                 
 
-Características Principales 
-Gestión Empresarial
-Ciclo de Vida de Órdenes: Creación, Confirmación, Envío, Entrega y Cancelación (con reversión automática de stock).
+Características Principales:                
+ 
+- Ciclo de Vida de Órdenes: Creación, Confirmación, Envío, Entrega y Cancelación (con reversión automática de stock).                             
 
-Control de Inventario: Bloqueo de ventas sin stock y alertas visuales de "Low Stock".
+- Control de Inventario: Bloqueo de ventas sin stock y alertas visuales de "Low Stock".                                       
 
-Gestión de Clientes: Cartera completa de clientes.
+- Gestión de Clientes: Cartera completa de clientes.                          
 
-Dashboard Ejecutivo
-KPIs en Tiempo Real: Ingresos totales, Tickets promedio.
+Dashboard Ejecutivo:                             
+- KPIs en Tiempo Real: Ingresos totales, Tickets promedio.                                         
+ 
+- Visualización de Datos: Gráficos de distribución de órdenes y curvas de ingresos.                         
 
-Visualización de Datos: Gráficos de distribución de órdenes y curvas de ingresos.
+Ingeniería de Software:                     
+- Seeders Inteligentes: Scripts SQL para poblar la BD con datos de prueba realistas.                       
 
-Ingeniería de Software
-Seeders Inteligentes: Scripts SQL para poblar la BD con datos de prueba realistas.
-
-Manejo de Errores Centralizado: Middleware global para captura de excepciones.
+- Manejo de Errores Centralizado: Middleware global para captura de excepciones.                
 
 Stack Tecnológico
 
