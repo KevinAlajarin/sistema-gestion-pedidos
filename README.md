@@ -170,12 +170,12 @@ npm test
 ```
 
 🗺 Roadmap & Mejoras Futuras
-[ ] Seguridad: Implementar JWT (JSON Web Tokens) y Roles (Admin/User).
+- Seguridad: Implementar JWT (JSON Web Tokens) y Roles (Admin/User).                     
 
-[ ] Reportes: Exportación de órdenes a PDF.
+- Reportes: Exportación de órdenes a PDF.                        
 
-[ ] Concurrencia: Implementar "Optimistic Locking" usando un campo Version en productos para prevenir condiciones de carrera en alto tráfico.
+- Concurrencia: Implementar "Optimistic Locking" usando un campo Version en productos para prevenir condiciones de carrera en alto tráfico.                              
 
-[ ] CI/CD: Pipeline de GitHub Actions para testing automático.
+- CI/CD: Pipeline de GitHub Actions para testing automático.                       
 
 Desarollado por Kevin Alajarin - 2025
