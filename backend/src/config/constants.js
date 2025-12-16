@@ -1,0 +1,18 @@
+module.exports = {
+  ORDER_STATUS: {
+    PENDING: 'PENDING',
+    CONFIRMED: 'CONFIRMED',
+    SHIPPED: 'SHIPPED',
+    DELIVERED: 'DELIVERED',
+    CANCELLED: 'CANCELLED'
+  },
+  STOCK_MOVEMENT_TYPE: {
+    IN: 'IN',
+    OUT: 'OUT',
+    ADJUST: 'ADJUST'
+  },
+  MOVEMENT_REFERENCE: {
+    ORDER: 'ORDER',
+    MANUAL: 'MANUAL'
+  }
+};
