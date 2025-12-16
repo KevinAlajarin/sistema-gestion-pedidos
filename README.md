@@ -89,8 +89,18 @@ Características Principales:
 Dashboard Ejecutivo:                             
 - KPIs en Tiempo Real: Ingresos totales, Tickets promedio.                                         
  
-- Visualización de Datos: Gráficos de distribución de órdenes y curvas de ingresos.                         
+- Visualización de Datos: Gráficos de distribución de órdenes y curvas de ingresos.
 
+<img width="1915" height="913" alt="image" src="https://github.com/user-attachments/assets/fe749c21-ab67-4bd0-9308-9f90bc3c11e9" />
+
+<img width="1917" height="917" alt="image" src="https://github.com/user-attachments/assets/3319d234-1981-4ec3-a0ab-9b34f4ca7676" />
+
+<img width="943" height="672" alt="image" src="https://github.com/user-attachments/assets/310c47b4-d1f9-4808-aa1d-dbf54a3818e3" />
+
+<img width="1908" height="914" alt="image" src="https://github.com/user-attachments/assets/c9f896ef-32df-4d56-a260-28415f8f42c2" />
+
+<img width="1915" height="913" alt="image" src="https://github.com/user-attachments/assets/2564ce38-5f66-4f5d-ada8-16f08387bf9a" />
+                         
 Ingeniería de Software:                     
 - Seeders Inteligentes: Scripts SQL para poblar la BD con datos de prueba realistas.                       
 
