@@ -30,6 +30,44 @@ graph TD
     Service --> Repository[Repositories]
     Repository <--> DB[SQL Server]
 ```
+Estructura del proyecto
+```text
+order-management-system/
+│
+├── backend/                 # API REST (Node.js + Express)
+│   ├── scripts/             # Scripts SQL (Init, Seeds, Stored Procedures)
+│   ├── src/
+│   │   ├── config/          # Configuración de BD y Constantes
+│   │   ├── controllers/     # Capa de entrada HTTP (Request/Response)
+│   │   ├── middleware/      # Validaciones, Auth y Error Handling global
+│   │   ├── models/          # Definición de clases (Customer, Order, etc.)
+│   │   ├── repositories/    # Capa de Acceso a Datos (Queries SQL directas)
+│   │   ├── routes/          # Definición de rutas de la API
+│   │   ├── services/        # Lógica de Negocio y Transacciones ACID
+│   │   ├── utils/           # Loggers y funciones auxiliares
+│   │   ├── app.js           # Configuración de Express
+│   │   └── server.js        # Entry point del servidor
+│   └── tests/               # Pruebas Unitarias (Jest)
+│
+├── frontend/                # SPA (React + Vite + Tailwind)
+│   ├── public/
+│   ├── src/
+│   │   ├── api/             # Servicios de conexión con el Backend (Axios)
+│   │   ├── components/      # Componentes UI reutilizables
+│   │   │   ├── common/      # Modales, Spinners, Badges
+│   │   │   ├── dashboard/   # Gráficos y Cards
+│   │   │   ├── layout/      # Sidebar, Header
+│   │   │   └── orders/      # Formularios y Listas complejos
+│   │   ├── context/         # Estado Global (AppContext)
+│   │   ├── hooks/           # Custom Hooks (useOrders, etc.)
+│   │   ├── pages/           # Vistas principales (Routing)
+│   │   └── App.jsx          # Componente Raíz
+│   ├── index.html           # Punto de entrada de Vite
+│   └── tailwind.config.js   # Configuración de estilos
+│
+├── docker-compose.yml       # Orquestación de SQL Server
+└── README.md                # Documentación del proyecto
+```
 
 Decisiones Técnicas Clave:
 - Transacciones ACID: La creación de órdenes y el descuento de stock ocurren dentro de una transacción atómica (BEGIN TRANSACTION... COMMIT/ROLLBACK). Si falla el stock, no se crea la orden.             
@@ -62,13 +100,13 @@ Stack Tecnológico
 
 | Área | Tecnología | 
 |------|------------|
-| **Backend** | Node.js | 
-| **Framework** | Express.js | 
-| **DataBase** | SQL Server (MSSQL) |
-| **Frontend** | React, Vite |
-| **Logging** | Winston | 
-| **Testing** | Jest | 
-| **Graficos* | Chart.js | 
+| **Backend** | Node.js |        
+| **Framework** | Express.js |                
+| **DataBase** | SQL Server (MSSQL) |                  
+| **Frontend** | React, Vite |                
+| **Logging** | Winston |                 
+| **Testing** | Jest |                    
+| **Graficos* | Chart.js |                
 
 Instalación y Despliegue
 ```text
