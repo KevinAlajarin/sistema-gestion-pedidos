@@ -59,30 +59,16 @@ Seeders Inteligentes: Scripts SQL para poblar la BD con datos de prueba realista
 Manejo de Errores Centralizado: Middleware global para captura de excepciones.
 
 Stack Tecnológico
-Backend
-Runtime: Node.js
 
-Framework: Express.js
-
-Database Driver: mssql (Microsoft SQL Server Client)
-
-Logging: Winston
-
-Testing: Jest (Unit Testing para Servicios)
-
-Frontend
-Core: React 18 (Vite)
-
-Estilos: Tailwind CSS
-
-Estado: Context API + Custom Hooks
-
-Gráficos: Chart.js
-
-Infraestructura
-Base de Datos: Microsoft SQL Server 2022 (Dockerizado)
-
-Contenedores: Docker Compose
+| Área | Tecnología | 
+|------|------------|
+| **Backend** | Node.js | 
+| **Framework** | Express.js | 
+| **DataBase** | SQL Server (MSSQL) |
+| **Frontend** | React, Vite |
+| **Logging** | Winston | 
+| **Testing** | Jest | 
+| **Graficos* | Chart.js | 
 
 Instalación y Despliegue
 ```text
